@@ -359,9 +359,20 @@ justify-content:flex-start;
 }
 .single-column1{margin-top:3rem;}
 .content-container-page2{display:block;}
-.content-container-page3{
-    
+.content-container-page3{display:block;
+
 }
+#image_about{display:none;
+visibility:hidden;}
+footer{position:relative;}
+.footer-container{position:absolute;
+bottom:0;
+overflow:hidden;
+display:block;}
+.subscribe{display:block;
+font-size:20px;}
+.input-container{display:block;}
+.footer-content-container{display:block;}
 }
 @media screen and (max-width:768px){
     .homepage{width:90vw;
