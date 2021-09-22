@@ -332,17 +332,22 @@ flex-direction:column;
 padding:0;
 margin:0; 
 position:relative;
+border:none;
 }
+
 .empty{display:none;}
 .content-page1{
-    display:flex;
-    flex-direction:column;
-    justify-content:flex-start;
-    padding:5px;
-margin:0;
-word-spacing:normal;
-position:absolute;
-top:0vh;}
+    height:80rem;
+ position:absolute;
+ top:-100vh;
+ border:none;
+
+}
+.content-page1 h3{
+    position:absolute;
+    top:-60vh;
+    border-bottom: none;
+}
 
 }
 @media screen and (max-width:768px){
