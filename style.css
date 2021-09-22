@@ -327,8 +327,8 @@ align-content:center;}
     border-radius:5px;
     font-size:14px;
 }
-.content-container-page1{display:flex;
-flex-direction:column;
+.content-container-page1{display: block;
+
 padding:0;
 margin:0; 
 position:relative;
@@ -341,14 +341,27 @@ border:none;
  position:absolute;
  top:-100vh;
  border:none;
+ font-size:20px;
+ margin:0;padding:5px;
 
 }
 .content-page1 h3{
-    position:absolute;
-    top:-60vh;
     border-bottom: none;
-}
 
+}
+.single-content-container{
+    display:block;
+justify-content:flex-start;
+    padding:0;
+    margin:0;
+    height:120rem;
+
+}
+.single-column1{margin-top:3rem;}
+.content-container-page2{display:block;}
+.content-container-page3{
+    
+}
 }
 @media screen and (max-width:768px){
     .homepage{width:90vw;
