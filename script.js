@@ -1,17 +1,9 @@
-const menuBtn=document.querySelector('.fa-bars');
-let menuOpen=false;
- menuBtn.addEventListener('click', ()=>{
-if(!menuOpen) {
-    menuBtn.classList.add('[open');
-    menuOpen=true;
-} else{
-    menuBtn.classList.remove('open');
-    menuOpen=false;
-}
- })
- var  currentDate;
- var d=new Date();
-      var newdate=new Date(currentDate)
- document.getElementById('date').innerText=newdate;
- console.log(currentDate)
-      
+const navToggle=document.querySelector(".nav-toggle");
+const links=document.querySelector(".nav-items");
+navToggle.addEventListener("click",function(){
+   console.log(links.classList.toggle('show-links'))
+    // if(links.classList.contains("show-links")){
+    //     links.classList.remove('show-links')
+    // } else{links.classList.add('show-links')}
+    // console.log(links.classList.contains("show-links"))
+}) 
