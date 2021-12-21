@@ -1,0 +1,15 @@
+*{box-sizing: border-box;
+margin:0;}
+section{display:flex;
+    justify-content:center;
+    text-align:center;
+    min-height:100vh;
+}
+article{ margin-left:100px;
+margin-right:100px;
+padding:20px;
+text-align:center;
+width:600px;
+background:#fff;
+border:1px solid #ddd;
+font-size:25px;}
