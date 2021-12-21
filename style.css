@@ -48,12 +48,13 @@ h1{
     left:60px;
     visibility:hidden;}
 
-.fa-times{position:absolute;
+.close{position:absolute;
     top:50px;
     left:60px;
     color:rgb(234,56,78);
     font-size:26px;
-    visibility:hidden;}
+    /* visibility:hidden;*/
+} 
     /* nav-bar style ends here */
 .homepage{background-image:url("images/imagee1.png");
     height:100vh;
