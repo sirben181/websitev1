@@ -105,10 +105,9 @@ color:rgb(50,75,204);}
 /* .content{  overflow-y:scroll;
     overflow-x:hidden;} */
 /* content pages */
-.content-container-page1{display:grid;
-    grid-template-columns:1fr 4fr 1fr;
+.content-container{display:flex;
+    flex-direction:column;
     padding:20px;
-grid-gap:20px;
 }
 .content_ourstory{
     height:80vh;
@@ -209,7 +208,7 @@ align-content:center;}
     border-radius:5px;
     font-size:14px;
 }
-.content-container-page1{display: block;
+.content-container{display: block;
 
 padding:0;
 margin:0; 
