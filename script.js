@@ -9,3 +9,20 @@ navToggle.addEventListener("click", ()=>{
        navToggle.classList.toggle('close')
    }
  }
+ const myFunction=()=>{
+     const moreText=document.getElementById('showmore')
+     const dots=document.getElementById('dots')
+     const btnMore=document.getElementById('btntxt')
+     
+     if( dots.style.display==='none'){
+         dots.style.display='inline'
+         btnMore.innerHTML='Read More'
+         moreText.style.display='none'
+     }else{
+         dots.style.display='none'
+         btnMore.innerHTML='read less'
+         moreText.style.display='inline'
+     }
+     console.log('working')
+ }
+ myFunction()
